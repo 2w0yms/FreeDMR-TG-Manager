@@ -1,0 +1,739 @@
+Country,Talk Groups,Name
+Worldwide,91,Worldwide
+Worldwide,910,German Language
+Worldwide,913,English Language
+Worldwide,914,Spanish Language
+Worldwide,915,Portuguese Language
+Worldwide,916,Italian Language
+Worldwide,919,Polish Language
+Worldwide,922,Dutch Language
+Worldwide,924,Swedish Language
+Worldwide,927,Nordic Language
+Worldwide,928,Russian Language
+Worldwide,937,French Language FRANCOPHONIE
+Worldwide,940,Arabic Language
+Worldwide,941,Mandarin Language
+Worldwide,942,Hindi Language
+Worldwide,943,Bengali Language
+Worldwide,944,Japanese Language
+Worldwide,945,Indonesian Language
+Worldwide,950,Firefighters of the world
+Worldwide,9541,RadHisTec
+Worldwide,973,SOTA 
+Worldwide,907,JOTA – YOTA / XLX005 J
+Worldwide,9071,Tac 1  JOTA – YOTA
+Worldwide,9072,Tac 2  JOTA – YOTA
+Worldwide,9073,Tac 3  JOTA – YOTA
+Worldwide,9074,Tac 4  JOTA – YOTA
+Worldwide,9075,Tac 5  JOTA – YOTA
+Worldwide,9076,Tac 6  JOTA – YOTA
+Worldwide,9077,Tac 7  JOTA – YOTA
+Worldwide,9078,Tac 8  JOTA – YOTA
+Venezuela,734,VENEZUELA NATIONAL
+Venezuela,7341,Falcon-Trujillo-Zulia
+Venezuela,73411,Venezuela link YSF
+Venezuela,7342,Barinas-Merida-Tachira
+Venezuela,7343,Lara-Portuguesa-Yaracuy
+Venezuela,7344,Aragua-Carabobo-Cojedes
+Venezuela,7345,Dtto. Capital-Guarico-Miranda-Dep.Federales
+Venezuela,7346,Anzoategui-Bolivar
+Venezuela,7347,Nueva esparta-Sucre
+Venezuela,7348,Monagas-Delta Amacuro
+Venezuela,7349,Apure-Amazonas
+Venezuela,734911,EMCOMM YV
+USA,702,Bluffton Digital link
+USA,3100,USA Nationwide
+USA,31001,N. A. TAC 1
+USA,31002,N. A. TAC 2
+USA,31003,N. A. TAC 3
+USA,31004,N. A. TAC 4
+USA,31005,N. A. TAC 5
+USA,31006,N. A. TAC 6
+USA,31007,N. A. TAC 7
+USA,31008,N. A. TAC 8
+USA,31009,N. A. TAC 9
+USA,3101,Alabama
+USA,310188,KC2ABV REPEATER SYSTEM
+USA,3102,Alaska
+USA,3104,Arizona
+USA,3105,Arkansas
+USA,3106,California
+USA,31060,California Link
+USA ,31061,CA TAC
+USA ,31068,NorCal
+USA,3108,Colorado
+USA,3109,Connecticut
+USA,3110,Delaware
+USA,3111,District of Columbia
+USA,3112,Florida
+USA,3113,Georgia
+USA,3115,Hawai
+USA,3116,Idaho
+USA,3117,Illinois
+USA,3118,Indiana
+USA,3119,Iowa
+USA,3120,Kansas
+USA,3121,Kentucky
+USA,3122,Louisiana
+USA,3123,Maine
+USA,3124,Maryland
+USA,3125,Massachusetts
+USA,3126,Michigan
+USA,31260,ZOMBIE Alert USA / XLX240B 
+USA,3127,Minnesota
+USA,3128,Mississippi
+USA,3129,Missouri
+USA,3130,Montana
+USA,3131,Nebraska
+USA,3132,Nevada
+USA,3133,New Hampshire
+USA,3134,New Jersey
+USA,3135,New Mexico
+USA,3136,New York
+USA,3137,North Carolina
+USA,31373,East NC
+USA,31377,OBX
+USA,31379,NC TAC
+USA,3138,North Dakota
+USA,3139,Ohio
+USA,3140,Oklahoma
+USA,3141,Oregon
+USA,3142,Pennsylvania
+USA,3143,Puerto Rico
+USA,3144,Rhode Island
+USA,3145,South Carolina
+USA,3146,South Dakota
+USA,3147,Tennessee
+USA,3148,Texas
+USA,3149,Utah
+USA,3150,Vermont
+USA,3151,Virginia
+USA,3152,Virgin Islands
+USA,3153,Washington
+USA,3154,West Virginia
+USA,3155,Wisconsin
+USA,3156,Wyoming
+USA,3160,Crossroads-USA Reflector
+USA,31601,NC4ES Chat 1
+USA,31602,NC4ES Chat 2
+USA,31603,NC4ES AUXCOMM
+USA,31604,NC4ES RF Link
+USA,31605,NC4ES EHPC
+USA,31611,XPR Network
+USA,3162,USA Latinos
+USA,3165,RF RADIO SIGNALS
+USA,316501,RF RADIO LINK
+USA,3166,DVSwitch
+USA,316601,YSF16512 US-WA-PNW
+USA,310001,ECHO EAST
+Uruguay,748,Uruguay
+Uruguay,7487,Uruguay Link
+Uruguay,74800,EMERGENCY
+Uruguay,74801,Montevideo
+Uruguay,74802,Montevideo
+Uruguay,74803,Artigas
+Uruguay,74804,Canelones
+Uruguay,74805,Cerro Largo
+Uruguay,74806,Colonia
+Uruguay,74807,Durazno
+Uruguay,74808,Flores
+Uruguay,74809,Florida
+Uruguay,74810,Lavalleja
+Uruguay,74811,Maldonado
+Uruguay,74812,Paysandú
+Uruguay,74813,Rio Negro
+Uruguay,74814,Rivera
+Uruguay,74815,Rocha
+Uruguay,74816,Salto
+Uruguay,74817,San José
+Uruguay,74818,Soriano
+Uruguay,74819,Tacuarembó
+Uruguay,74820,Treinta y Tres
+Uruguay,74830,CXUA1
+Uruguay,74840,CXUA2
+Uruguay,74850,CXUA3
+Uruguay,74860,CXUA4
+Uruguay,748230,Marconi Activities(IMDetc.)
+UK D-Star,23402,UK / XLX005 B
+UK D-Star,23407,DV-Mega / XLX005 G
+UK D-Star,23408,Worcestershire / XLX005 H
+UK D-Star,23409,N. Ireland / XLX005 I
+UK D-Star,23412,London / XLX005 L
+UK D-Star,23413,Midlands / XLX005 M
+UK D-Star,23414,North / XLX005 N
+UK D-Star,23415,Chat 1 / XLX005 O
+UK D-Star,23416,Chat 2 / XLX005 P
+UK D-Star,23417,Chat 3 / XLX005 Q
+UK D-Star,23423,Wales & West / XLX005 W
+UK D-Star,23425,Emergency / XLX005 Y
+UK,23427,FreeDMR UK AllStar 29177
+UK,2350,UK Calling – QSY
+UK,2351,Chat 1
+UK,2352,Chat 2
+UK,2353,Chat 3
+UK,2354,Chat 4
+UK,2355,Chat 5
+UK,2356,Chat 6
+UK,2357,Isle of Man
+UK,2358,London / XLX084 L
+UK,2359,Kernow & Jersey
+UK,23500,South West
+UK,23510,South East / XLX005 S
+UK,23520,North West
+UK,23530,Yorkshire / XLX899 Z
+UK,23540,N. Ireland Chat
+UK,23550,Scotland Chat
+UK,23551,Scotland Alba Allstar Multimode
+UK,23557,Scotland East
+UK,23558,Scotland Highland & Islands
+UK,23559,Scotland West
+UK,23560,North East
+UK,23565,Northumberland Scouts
+UK,23562,M62 Corridor
+UK,23570,Wales Chat
+UK,23579,TORC / XLX994 B
+UK,23580,West Midland
+UK,23590,East Midlands / XLX005 E
+UK,23595,OZ-DMR Network
+UK,23490,East Anglia
+Thailand,520,Thailand Nation Wide
+Thailand,5201,Chat 1
+Thailand,5202,TH ASL-55087
+Thailand,5203,Chat 3
+Thailand,5204,XLX727 C
+Thailand,5205,XLX138 F
+Thailand,52007,E20AE Club Station
+Thailand ,52010,Thailand Regian 1
+Thailand,52020,Thailand Regian 2
+Thailand,52022,Chantaburi / XLX822 C
+Thailand,52030,Thailand Regian 3
+Thailand,52040,Thailand Regian 4
+Thailand,52050,Thailand Regian 5
+Thailand,52060,Thailand Regian 6
+Thailand,52070,Thailand Regian 7
+Thailand,52080,Thailand Regian 8
+Thailand,52090,Thailand Regian 9
+Taiwan,46600,Taiwan
+Switzerland,228,Svizzera nazionale
+Switzerland,2280,Svizzera tedesca
+Switzerland,2281,Suisse Romande
+Switzerland,2282,Valais
+Switzerland,2283,Berna / Soletta
+Switzerland,2284,Basilea
+Switzerland,2285,Argovia / Svizzera centrale
+Switzerland,2286,Ticino
+Switzerland,2287,Grigioni
+Switzerland,2288,Zurich
+Switzerland,2289,Svizzera orientale
+Switzerland,22801,UA 1
+Switzerland,22802,UA 2
+Switzerland,22803,UA 3
+Switzerland,22804,UA 4
+Switzerland,22810,HB9-BM-WIRESX (Node 27628)
+Switzerland,22811,WIRESX HB9VD-ROOM (Node 27095)
+Switzerland,22812,Geneve
+Switzerland,22815,Neuchatel
+Switzerland,22817,Friburg
+Switzerland,22822,XLX229 modulo D
+Switzerland,22823,XLX229 modulo G
+Switzerland,22824,XLX328 modulo A - AllStar 538451
+Switzerland,22825,XLX328 modulo F
+Switzerland,22826,WIRESX HB9T (Node 47052)
+Switzerland,22877,Poschiavo
+Spain,214,National (P)
+Spain,2141,ZONE 1 EA
+Spain,2142,ZONE 2 EA
+Spain,2143,ZONE 3 EA
+Spain,2144,ZONE 4 EA
+Spain,2145,ZONE 5 EA
+Spain,2146,ZONE 6 EA
+Spain,2147,ZONE 7 EA
+Spain,2148,ZONE 8 EA
+Spain,2149,ZONE 9 EA
+Spain,21499,Radioaficionados ARAGON
+Spain,21411,URE SEC.COMARCAL  S.FERNANDO CADIZ 
+Spain,21460,CERT-SPAIN
+Spain,21461,Multiprotocol DMR / NXDN / FUSION / DSTAR / P25
+Spain,214091,ARSA-CNP
+Spain,214112,EMERGENCY
+Romania,226,Romania National
+Romania,2260,Romania Chatter
+Romania,2262,Romania District YO2
+Romania,2263,Romania District YO3
+Romania,2264,Romania District YO4
+Romania,2265,Romania District YO5
+Romania,2266,Romania District YO6
+Romania,2267,Romania District YO7
+Romania,2268,Romania District YO8
+Romania,2269,Romania District YO9
+Romania,22601,Romania D-Star YO
+Romania,22602,Romania SVXLink Bridge
+Romania,22603,Romania RoLink Bridge
+Romania,22604,Romania SvxNet Bridge
+Romania,22605,Romania Maramures County
+Romania,226999,Romania Parrot
+Reunion Island,647,Reunion 
+Puerto Rico,330,National
+Puerto Rico,3300,PR00
+Puerto Rico,3301,PR01
+Puerto Rico,3302,PR02
+Puerto Rico,3303,PR03
+Puerto Rico,3304,PR04
+Puerto Rico,3305,PR05
+Puerto Rico,3306,PR06
+Puerto Rico,3307,PR07
+Puerto Rico,3308,PR08
+Puerto Rico,3309,PR09
+Puerto Rico,33010,PR10
+Puerto Rico,33011,PR11
+Puerto Rico,33012,PR12
+Puerto Rico,33013,PR13
+Puerto Rico,33014,PR14
+Puerto Rico,33015,PR15
+Puerto Rico,33016,PR16
+Puerto Rico,33017,PRNet
+Puerto Rico,33018,PR018
+Puerto Rico,33019,PR019
+Puerto Rico,33020,PR020
+Portugal,268,Portugal_National
+Portugal,2681,Norte
+Portugal,2682,Centro
+Portugal,2683,Capital
+Portugal,2684,Alentejo
+Portugal,2685,Algarve
+Portugal,2686,Azores
+Portugal,2687,Madeira Is.
+Portugal,2688,Infos
+Poland,260,Poland HBLink
+Poland,26000,Techniczna
+Poland,260201,Chojnice
+Poland,260202,ChojniceII
+Poland,260203,Bydgoszcz
+Poland,260401,Białystok
+Poland,260501,Warszawa
+Poland,260525,Kadzidło
+Poland,260601,Wrocław
+Poland,260701,Łódź
+Poland,260778,Kutno
+Poland,260901,Tarnów
+Poland,260902,Kraków
+Poland,260903,Zakopane
+Poland,260909,Silesia
+Poland,260911,Jastrzębie Zdrój
+Poland,260928,Orzesze
+Peru,716,Peru
+Peru,7160,Peru Digital / XLX716 C
+Peru,7161,Peru Zona OA1
+Peru,7162,Peru Zona OA2
+Peru,7163,Peru Zona OA3
+Peru,7164,Peru Zona OA4
+Peru,7165,Peru Zona OA5
+Peru,7166,Peru Zona OA6
+Peru,7167,Peru Zona OA7
+Peru,7168,Peru Zona OA8
+Peru,7169,Peru Zona OA9
+Panama,714,Panama National
+Panama,7143,Panama WiresX
+Panama,7144,Chiriqui Link
+Panama,71441,Chiriqui-Echolink
+Panama,7145,GREMPA
+Panama,7146,UPRA
+Panama,7148,Radio Club Panama
+Panama,7149,Panamá Scouts
+Panama,71410,Trx West
+Panama,714911,Emergencia Panama
+Nicaragua,710,Nacional
+Nicaragua,7101,Zona YN1
+Nicaragua,7102,Zona YN2
+Nicaragua,7103,Zona YN3
+Nicaragua,7104,Zona YN4
+Nicaragua,7105,Zona YN5
+Nicaragua,71000,XLX711 A
+Nicaragua,710411,Punto de Encuentro Interno
+Nicaragua,710911,Emergencia Nacional
+New Zealand,530,ZL National
+New Zealand,5301,ZL 1 Region
+New Zealand,5302,ZL 2 Region
+New Zealand,5303,ZL 3 Region
+New Zealand,5304,ZL 4 Region
+New Zealand,53020,CQ-UK link / XLX750 A
+New Zealand,53029,XLX299 X
+New Zealand,53050,XLX750 C
+New Zealand,53060,Taupo Amateur Radio Club
+New Zealand,53099,XLX750 D (P)
+New Zealand,530287,XLX287 A (P)
+New Zealand,530530,XLX750 S (P)
+Netherlands,204,Nederlands-National
+Netherlands,20400,Nederlands-Gateway
+Netherlands,20401,Nederlands-Drenthe
+Netherlands,20402,Nederlands-Flevoland
+Netherlands,20403,Nederlands-Friesland
+Netherlands,20404,Nederlands-Gelderland
+Netherlands,20405,Nederlands-Groningen
+Netherlands,20406,Nederlands-Limburg
+Netherlands,20407,Nederlands-Noord Brabant
+Netherlands,20408,Nederlands-Noord Holland
+Netherlands,20409,Nederlands-Overijssel
+Netherlands,20410,Nederlands-Zuid Holland
+Netherlands,20411,Nederlands-Utrecht
+Netherlands,204112,Nederlands-Emergency
+Morocco,604,Morocco-National
+Morocco,6041,Cross Mode DMR = ANALOGUE
+Morocco,60401,DMR-MAROC
+Morocco,60410,EL Jadida
+Mexico,334,National
+Mexico,3341,XE1 Zone
+Mexico,3342,XE2 Zone
+Mexico,3343,XE3 Zone
+Mexico,3349,W Zone
+Mexico,3340,Second National 
+Mexico,33450,FMRE
+Mexico,33451,ARAM
+Mexico,33455,Experimentation
+Mexico,33456,DXCC
+Mexico,33457,Scouts and Jamboree JOTA/JOTI
+Mexico,33401,Aguascalientes
+Mexico,33402,Baja California Norte 
+Mexico,33403,Baja California Sur
+Mexico,33404,Campeche
+Mexico,33405,Coahuila
+Mexico,33406,Colima 
+Mexico,33407,Chiapas
+Mexico,33408,Chihuahua
+Mexico,33409,CDMX/DF
+Mexico,33410,Durango
+Mexico,33411,Guanajuato
+Mexico,33412,Guerrero
+Mexico,33413,Hidalgo
+Mexico,33414,Jalisco
+Mexico,33415,Estado de México
+Mexico,33416,Michoacán
+Mexico,33417,Morelos
+Mexico,33418,Nayarit
+Mexico,33419,Nuevo León
+Mexico,33420,Oaxaca
+Mexico,33421,Puebla
+Mexico,33422,Querétaro
+Mexico,33423,Quintana Roo
+Mexico,33424,San Luis Potosí
+Mexico,33425,Sinaloa
+Mexico,33426,Sonora
+Mexico,33427,Tabasco
+Mexico,33428,Tamaulipas
+Mexico,33429,Tlaxcala 
+Mexico,33430,Veracruz 
+Mexico,33431,Yucatán
+Mexico,33432,Zacatecas
+Japan,440,Call-QSY
+Japan,4401,Chat 1
+Japan,4402,Chat 2
+Japan,4403,Chat 3
+Japan,4404,Chat 4
+Japan,4405,Chat 5
+Italy,222,Italy
+Italy,22201,Lazio
+Italy,22202,Sardegna
+Italy,22203,Umbria
+Italy,22211,Liguria
+Italy,22212,Piemonte
+Italy,22213,Valle D'Aosta
+Italy,22215,All Bridge MP
+Italy,22216,AllstarLink  IT
+Italy,22217,Local TGs
+Italy,22218,Local TGs
+Italy,22219,2007-DXGROUP
+Italy,22220,Conference ItalyNet
+Italy,22221,Lombardia
+Italy,22231,Friuli Venezia Giulia
+Italy,22232,Trentino-Alto Adige
+Italy,22233,Veneto
+Italy,22241,Emilia Romagna
+Italy,22251,Toscana
+Italy,22261,Abruzzo
+Italy,22262,Marche
+Italy,22271,Puglia
+Italy,22281,Basilicata
+Italy,22282,Calabria
+Italy,22283,Campania
+Italy,22284,Molise
+Italy,22291,Sicilia
+Italy,222958,Cluster RAD
+Italy,222994,Echolink Sicily Conference
+Italy,222995,Multi Bridge
+Ireland,272,NRSI
+Ireland,2720,JOTA / JOTI & YOUTH
+Ireland,2721,Administration  / Support
+Ireland,2722,Ireland Calling
+Ireland,2723,Ireland Chat
+Ireland,2724,YSF Ireland ID 02724
+Ireland,2725,Multimode Bridging
+Ireland,2726,Experimental / Homebrew
+Ireland,2727,Portable and Land Mobile
+Ireland,2728,Maritime Mobile
+Ireland,2729,Space / AMSAT Ireland
+Ireland,27210,Connacht Province Call/Chat
+Ireland,27211,C2 – Connacht Chat 2
+Ireland,27212,C3 – Connacht Chat 3
+Ireland,27213,C4 – Connacht Chat 4
+Ireland,27214,C5 – Connacht Chat 5
+Ireland,27215,Leinster Province Call/Chat
+Ireland,27216,L2 – Leinster Chat 2
+Ireland,27217,L3 – Leinster Chat 3
+Ireland,27218,L4 – Leinster Chat 4
+Ireland,27219,L5 – Leinster Chat 5
+Ireland,27220,Munster Province Call/Chat
+Ireland,27221,M2 – Munster Chat 2
+Ireland,27222,M3 – Munster Chat 3
+Ireland,27223,M4 – Munster Chat 4
+Ireland,27224,M5 – Munster Chat 5
+Ireland,27225,Ulster Province Call/Chat
+Ireland,27226,U2 – Ulster Chat 2
+Ireland,27227,U3 – Ulster Chat 3
+Ireland,27228,U4 – Ulster Chat 4
+Ireland,27229,U5 – Ulster Chat 5
+Ireland,27230,Midlands Region Call/Chat
+Ireland,27231,MID2 – Midlands Chat 2
+Ireland,27232,MID3 – Midlands Chat 3
+Ireland,27233,MID4 – Midlands Chat 4
+Ireland,27234,MID5 – Midlands Chat 5
+Ireland,27235,Islands Call/Chat
+Ireland,27236,I2 – Island Chat 2
+Ireland,27237,I3 – Island Chat 3
+Ireland,27238,I4 – Island Chat 4
+Ireland,27239,I5 – Island Chat 5
+Ireland,27241,Low and Medium Frequency
+Ireland,27242,High Frequency
+Ireland,27243,Very High Frequency
+Ireland,27244,Ultra High Frequency
+Ireland,27245,Microwave
+Ireland,27246,Contest
+Ireland,27247,DX Ireland
+Ireland,27250,Data
+Ireland,27271,Youth
+Ireland,27288,YL and XYL
+Ireland,27290,National Emergency Alert
+Ireland,27291,IECRO Primary
+Ireland,27292,IECRO Secondary
+Greece‎,202,National Greece <->YSF GR GREECE DV
+Greece‎,2021,Area 1 National - Central Greece
+Greece‎,2022,Area 2 National - Central & West Macedonia
+Greece‎,2023,Area 3 National – Peloponnese
+Greece‎,2024,Area 4 National – Thessaly
+Greece‎,2025,Area 5 National - Dodecanese Islands
+Greece‎,2026,Area 6 National - Epirus
+Greece‎,2027,Area 7 National - Thrace and East Macedonia
+Greece‎,2028,Area 8 National - All Greek islands (except the Dodecanese Islands and Crete Island)
+Greece‎,2029,Area 9 <->YSF GR CRETE DV
+Greece‎,20201,Hellenic Tech 1
+Greece‎,20202,DMR+ National Greece
+Greece‎,20231,PATRAS Group
+Greece‎,20241,Trikala Greece
+Greece‎,20261,Ioannina Greece
+Greece‎,20281,Corfu island <->YSF GR KERKYRA DV
+Germany,262,National 
+Germany,2620,Saxony-Anhalt/Mecklenburg
+Germany,26257,DE-Kusel
+Germany,26281,DE-RAMSES
+Germany,2629,Saxony/Thuringia
+France,208,France DMR+
+France,2081,France IDF
+France,2082,France Sud-Est
+France,2083,France
+France,20838,Isère
+France,2084,France Est
+France,2085,France
+France,2086,France
+France,2087,France
+France,2088,France
+France,2089,Dom Tom
+France,20800,YSF-France ID 58617
+France,20811,Corse DMR+
+France,20820,Corse
+France,20833,Gironde
+France,20844,Loire-Atlanique
+France,20853,Mayenne
+France,20857,Moselle
+France,20866,Pyreness-Onrientales
+France,20867,Bas-Rhin
+France,20871,Saone-et-Loire
+France,20878,Yvelines
+France,20887,Linousin
+France,20895,Val d''Oise'
+France,208000,YSF France-Wide ID 64879
+El Salvador,706,El Salvador
+El Salvador,70600,El Salvador D-Star XLX051 J
+El Salvador,70601,El Salvador Región 1
+El Salvador,70602,El Salvador Región 2
+El Salvador,70603,El Salvador Región 3
+El Salvador,70604,El Salvador Eventos
+El Salvador,70605,El Salvador Emergencias
+Ecuador,740,Ecuador
+Ecuador,7401,Ecuador HC3 Loja
+Ecuador ,7406,AMBATO
+Ecuador ,74001,CARCHI-IMBABURA-PICHINCHA
+Ecuador ,74002,GUAYAS LOS RIOS
+Ecuador ,74003,LOJA - EL ORO
+Ecuador ,74004,MANBI - ESMERALDAS
+Ecuador ,74005,CHIMBORAZO- CAÑAR-AZUAY
+Ecuador ,74006,COTOPAXI- TUNGURAHUA - BOLIVAR
+Ecuador ,74007,ZAMORA CHINCHIPE- MORONA SANTIAGO-NAPO- PASTAZA- SUCUMBIOS
+Ecuador ,74008,GALAPAGOS
+Ecuador ,740911,EMERGENCIAS
+DominicanRep,370,DR National
+DominicanRep,3700,RD SYSTEMATICO
+DominicanRep,3701,DR Zone 1
+DominicanRep,3702,DR Zone 2
+DominicanRep,3703,DR Zone 3
+DominicanRep,3704,DR Zone 4
+DominicanRep,3705,DR Zone 5
+DominicanRep,3706,DR Zone 6
+DominicanRep,3707,DR Zone 7
+DominicanRep,3708,DR Zone 8
+DominicanRep,37022,DR Net
+DominicanRep,37030,Skynet
+DominicanRep,37040,DR Multiprotocolo
+DominicanRep,37050,DR Tech
+Denmark,238,Denmark
+Denmark,2381,Denmark Nordjylland
+Denmark,2382,Denmark Midtjylland
+Denmark,2383,Denmark Syddanmark
+Denmark,2384,Denmark Copenhagen
+Denmark,2385,Denmark Sjaelland
+Costa Rica,712,Costa Rica
+Colombia,732,HK. National
+Colombia,7320,HK0 Atlantico
+Colombia,7321,HK1 Cesar
+Colombia,7322,HK2 Bogotá
+Colombia,7323,HK3 Antioquia
+Colombia,7324,HK4 Cauca
+Colombia,7325,HK5 Caldas
+Colombia,7326,HK6 Arauca
+Colombia,7327,HK7 Caquetá
+Colombia,7328,HK8 Amazonas
+Colombia,7329,HK9 Malpelo
+Colombia,73230,Calderonet
+Colombia,732075,FRACOL
+Chile,730,CHILE - Nacional
+Chile,7301,CE1 Zona1 Arica - Atacama
+Chile,7302,CE2 Zona2 Coquimbo -Valparaiso
+Chile,73021,La Serena-Coquimbo-VHF
+Chile,73022,Valparaiso-VHF
+Chile,73023,Valparaiso-UHF
+Chile,73024,Los Andes-VHF
+Chile,7303,CE3 Zona3 Metropolitana
+Chile,73031,Santiago-UHF
+Chile,7304,CE4 Zona4 O'Higgins - Ñuble
+Chile,73041,Pelluhue-VHF
+Chile,73042,Constitucion-VHF
+Chile,73043,Chillan-VHF
+Chile,73044,Chillan-UHF
+Chile,7305,CE5 Zona5 BioBio
+Chile,73051,Concepcion-VHF
+Chile,73052,Los Angeles-VHF
+Chile,73053,Los Angeles-UHF
+Chile,7306,CE6 Zona6 Araucania y Los Rios
+Chile,7307,CE7 Zona7 Los Lagos - Aysen
+Chile,7308,CE8 Zona8 Magallanes
+Chile,7309,CE9 Zona9 U.Esperanza - Antartica
+Chile,7300,CE0 Zona0 Chile Insular
+Chile,730911,EMMCOM Chile
+Chile,73010,CL-Link YSF51028-WiresX-81510
+Chile,73020,XLX200-TG73020
+Chile,730907,JOTA-Chile
+Chile,730170,RedChile-Echolink
+Central America,7000,Red Digital Centroamericana
+Canada,302,Canada Wide  Yukon & NWT
+Canada,3020,Newfoundland & Labrador & P.E.I.
+Canada,3021,Nova Scotia
+Canada,3022,Quebec 
+Canada,3023,Ontario
+Canada,3024,Manitoba
+Canada,3025,Saskatchewan
+Canada,3026,Alberta
+Canada,3027,British Columbia
+Canada,3028,Nunavut Yukon & NWT
+Canada,3029,New Brunswick
+Bulgaria,284,BG National
+Bulgaria,2842,Sofia
+Bulgaria,2843,Plovdiv
+Bulgaria,2844,Varna
+Bulgaria,2845,Burgas
+Bulgaria,2846,Sliven
+Bulgaria,28411,HBLink-BULGARIA
+Bulgaria,284016,South East Bulgaria
+Brasil,724,Brasil National
+Brasil,7241,Norte
+Brasil,7242,Nordeste
+Brasil,7243,Centro-Oeste
+Brasil,7244,Sudeste
+Brasil,7245,Sul
+Brasil,72411,São Paulo
+Brasil,72416,YSF-NET
+Brasil,72421,Rio de Janeiro
+Brasil,72427,Espírito Santo
+Brasil,72431,Minas Gerais
+Brasil,72441,Paraná
+Brasil,72448,Santa Catarina
+Brasil,72451,Rio Grande do Sul
+Brasil,72461,Brasília
+Brasil,72462,Goiás
+Brasil,72463,Tocantins
+Brasil,72465,Mato Grosso
+Brasil,72467,Mato Grosso do Sul
+Brasil,72468,Acre
+Brasil,72469,Rondônia
+Brasil,72471,Bahia
+Brasil,72479,Sergipe
+Brasil,72481,Pernambuco
+Brasil,72482,Alagoas
+Brasil,72483,Paraíba
+Brasil,72484,Rio Grande do Norte
+Brasil,72485,Ceará
+Brasil,72486,Piauí
+Brasil,72490,Desbravadores
+Brasil,72491,Pará
+Brasil,72492,Amazonas
+Brasil,72495,Roraima
+Brasil,72496,Amapá
+Brasil,72498,Maranhão
+Belgium,206,Belgium-National
+Belgium,2061,Belgium-North
+Belgium,2062,Belgium-South
+Belgium,2063,Belgium-East
+Belgium,2064,Belgium-On Demand
+Belgium,2065,Belgium-On Demand
+Belgium,2066,Belgium-On Demand
+Belgium,2067,Belgium-On Demand
+Belgium,2068,Belgium-On Demand
+Belgium,2069,Belgium-On Demand
+Belgium,20600,Belgium-Liege
+Belgium,20601,Belgium-Namur
+Belgium,20602,Belgium-Luxembourg
+Belgium,20603,Belgium-Hainaut
+Belgium,20604,Belgium-Brussels
+Belgium,20605,Belgium-Brabant Wallon
+Belgium,20606,Belgium-Vlaams Brabant
+Belgium,20607,Belgium-Limburg
+Belgium,20608,Belgium-Antwerpen
+Belgium,20609,Belgium-O.Vlanderen
+Belgium,20610,Belgium-W.Vlanderen
+Belgium,206112,Belgium-Emergency
+Australia,505,Australia
+Australia,5051,ACT (Australian Capital Territory)
+Australia,5052,NSW (New South Wales)
+Australia,5053,VIC (Victoria)
+Australia,5054,QLD (Queensland)
+Australia,5055,SA (South Australia)
+Australia,5056,WA (Western Australia)
+Australia,5057,TAS (Tasmania)
+Australia,5058, NT (Northern Territory)
+Argentina,722,ARG 722 
+Argentina,7221,ARG 7221
+Argentina,7222,ARG 7222
+Argentina,7223,ARG 7223
+Argentina,7224,ARG 7224
+Argentina,7225,ARGENTINA DIGITAL
+Argentina,7226,ARG 7226
+Argentina,7227,ARG 7227
+Argentina,7228,ARG 7228
+Argentina,7229,ARG 7229
