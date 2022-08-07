@@ -26,13 +26,17 @@
 	<form id="tgedit" method="POST" action="update.php?id=<?php echo $id; ?>">
 	    <table class="table table-striped table-bordered">
 		<thead class="thead-dark">
-		<th>Name (Max 60 Characters)</th>
+		<th>Name (Max 40 Characters)</th>
+		<th>Bridges (Max 60 Characters)</th>
 		<th>Country</th>
+		<th>MCC</th>
 		<th>Functions</th>
 		</thead>
 		<tbody>
-		<td><input id="NAME" type="text" minlength="3" maxlength="60" value="<?php echo $row['NAME']; ?>" name="NAME" required></td>
+		<td><input id="NAME" type="text" minlength="3" maxlength="40" value="<?php echo $row['NAME']; ?>" name="NAME" required></td>
+		<td><input id="BRIDGES" type="text" maxlength="60" value="<?php echo $row['BRIDGES']; ?>" name="BRIDGES"></td>
 		<td><input id="COUNTRY" type="text" minlength="2" maxlength="30" value="<?php echo $row['COUNTRY']; ?>" name="COUNTRY" required></td>
+		<td><input id="MCC" type="number" minlength="3" maxlength="6" value="<?php echo $row['MCC']; ?>" name="MCC" required></td>
 		<td><input class="btn btn-success" type="submit" name="submit"> <a href="delete.php?id=<?php echo $row['TALKGROUP']; ?>" class="btn btn-danger">Delete</a> <a href="index.php" class="btn btn-warning">Back</a></td>
 		</tbody>
 		</table>

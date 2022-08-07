@@ -51,13 +51,10 @@
   <h1 align="center"><img src="../logo.png" /></br></br>Login to TG Manager</h1></br></br>
     <form action="login.php" method="post">
       <table class="table table-striped table-bordered">
-      <thead class="thead-dark">
-        <th>Username</th><th>Password</th><th>Submit</th>
-          </thead>
           <tbody>
-          <td><input size=\"30\" type="text" size="30" maxlength="30" name="username"></td>
-          <td><input size=\"30\" type="password" size="30" maxlength="30" name="password"></td>
-          <td><input class="btn btn-danger" type="submit" value="Login"></td>
+          <tr><th>Username</th><td><input size=\"30\" type="text" size="30" maxlength="30" name="username"></td></tr>
+          <tr><th>Password</th><td><input size=\"30\" type="password" size="30" maxlength="30" name="password"></td></tr>
+          <tr><td><input class="btn btn-danger" type="submit" value="Login"></td></tr>
         </tbody>
       </table>
     </form></br></br>

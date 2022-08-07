@@ -8,7 +8,7 @@ include_once 'dbconfig.php';
     $result = $db->query("SELECT * FROM TALKGROUPS ORDER BY TALKGROUP ASC"); ?> 
     <?php if($result->num_rows > 0){ 
         while($row = $result->fetch_assoc()){ 
-    ?><?php echo $row['TALKGROUP']; ?>;2;<?php echo $row['NAME']; ?>;<?php echo $row['NAME']; ?></br>
+    ?><?php echo $row['TALKGROUP']; ?>;0;<?php echo $row['NAME']; ?>;TG<?php echo $row['TALKGROUP']; ?><?php echo PHP_EOL; ?>
     <?php } } else{ ?>
         No talkgroup(s) found...
        <?php } ?>

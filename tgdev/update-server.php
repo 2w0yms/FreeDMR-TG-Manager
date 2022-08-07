@@ -4,14 +4,12 @@
  
 	$name=$_POST['name'];
 	$website=$_POST['website'];
-	$dashboard1=$_POST['dashboard1'];
-	$host=$_POST['host'];
+	$dashboard=$_POST['dashboard'];
+	$dashboard2=$_POST['dashboard2'];
 	$telegram=$_POST['telegram'];
-	$facebook=$_POST['facebook'];
-	$twitter=$_POST['twitter'];
-	$other=$_POST['other'];
+	$socials=$_POST['socials'];
 	$mcc=$_POST['mcc'];
  
-	mysqli_query($db,"update `SERVERS` set name='$name', website='$website', dashboard1='$dashboard1', host='$host', telegram='$telegram', facebook='$facebook', twitter='$twitter', other='$other', mcc='$mcc' where serverid='$id'");
+	mysqli_query($db,"update `SERVERS` set name='$name', website='$website', dashboard='$dashboard', dashboard2='$dashboard2', telegram='$telegram', socials='$socials', mcc='$mcc' where serverid='$id'");
 	header('location:servers.php');
 ?>

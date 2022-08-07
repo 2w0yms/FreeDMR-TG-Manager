@@ -2,7 +2,7 @@
 // Database configuration 
 $dbHost     = "localhost"; 
 $dbUsername = "freedmr_talkgroups"; 
-$dbPassword = "password"; 
+$dbPassword = "****"; 
 $dbName     = "freedmr_talkgroups"; 
  
 // Create database connection 

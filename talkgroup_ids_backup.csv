@@ -1,4 +1,7 @@
 id,callsign,tgid
+648,Zimbabwe ,648
+645,Zambia ,645
+421,Yemen ,421
 91,Worldwide,91
 910,German Language,910
 913,English Language,913
@@ -34,20 +37,23 @@ id,callsign,tgid
 98002,Hamfurs,98002
 953,Oceania Region,953
 16777215,All Call,16777215
+452,Vietnam ,452
 734,MCC VENEZUELA - YSF 86374,734
-7341,Falcon-Trujillo-Zulia,7341
+7341,(YV1) Falcon-Trujillo-Zulia,7341
 73411,Red Vzlana de Rad.Afic.YV5RVR,73411
-7342,Barinas-Merida-Tachira,7342
-7343,Lara-Portuguesa-Yaracuy,7343
-7344,Aragua-Carabobo-Cojedes,7344
-7345,Dtto. Capital-Guarico-Miranda-Dep.Federales,7345
-7346,Anzoategui-Bolivar,7346
-7347,Nueva esparta-Sucre,7347
-7348,Monagas-Delta Amacuro,7348
-7349,Apure-Amazonas,7349
+7342,(YV2) Barinas-Merida-Tachira,7342
+7343,(YV3) Lara-Portuguesa-Yaracuy,7343
+7344,(YV4) Aragua-Carabobo-Cojedes,7344
+7345,(YV5) CCS/D.C.-Guarico-Miranda-Dep.Fed.,7345
+7346,(YV6) Anzoategui-Bolivar,7346
+7347,(YV7) Nueva esparta-Sucre,7347
+7348,(YV8) Monagas-Delta Amacuro,7348
+7349,(YV9) Apure-Amazonas,7349
 734911,EMCOMM YV,734911
 734400,Rescue & FirstAid Venezuela,734400
 73440,Net Dig. Venezuela,73440
+541,Vanuatu ,541
+434,Uzbekistan ,434
 702,Bluffton Digital link,702
 3100,USA Nationwide,3100
 31001,N. A. TAC 1,31001
@@ -182,20 +188,13 @@ id,callsign,tgid
 74850,CXUA3,74850
 74860,CXUA4,74860
 748230,Marconi Activities(IMDetc.),748230
-23402,UK / XLX005 B,23402
-23407,DV-Mega / XLX005 G,23407
-23408,Worcestershire / XLX005 H,23408
-23409,N. Ireland / XLX005 I,23409
-23412,London / XLX005 L,23412
-23413,Midlands / XLX005 M,23413
-23414,North / XLX005 N,23414
-23415,Chat 1 / XLX005 O,23415
-23416,Chat 2 / XLX005 P,23416
-23417,Chat 3 / XLX005 Q,23417
-23423,Wales & West / XLX005 W,23423
-23425,Emergency / XLX005 Y,23425
+332,United States Virgin Islands ,332
+310,United States of America ,310
+234,United Kingdom ,234
+424,United Arab Emirates ,424
+255,Ukraine ,255
 23427,Dial-a-Node FreeDMR UK AllStar 29177,23427
-2350,UK Calling – QSY,2350
+2350,UK Central,2350
 2351,Chat 1,2351
 2352,Chat 2 ,2352
 2353,Chat 3,2353
@@ -207,7 +206,6 @@ id,callsign,tgid
 2359,Kernow & Jersey ,2359
 23500,South West,23500
 23510,South East,23510
-23511,FreeDMR Sussex AllStar 29177,23511
 23520,North West ,23520
 23530,Yorkshire ,23530
 23540,N. Ireland Chat,23540
@@ -221,8 +219,17 @@ id,callsign,tgid
 23579,TORC / XLX994 B,23579
 23580,West Midland,23580
 23590,East Midlands,23590
-23595,OZ-DMR Network Chat & Audio News,23595
+23595,OZ-DMR Chat & Audio News,23595
 23490,East Anglia,23490
+641,Uganda ,641
+553,Tuvalu ,553
+376,Turks and Caicos Islands ,376
+438,Turkmenistan ,438
+286,Turkey ,286
+605,Tunisia ,605
+374,Trinidad and Tobago ,374
+539,Tonga ,539
+615,Togo ,615
 520,Thailand Nation Wide,520
 5201,Chat 1,5201
 5202,TH ASL-55087,5202
@@ -240,7 +247,11 @@ id,callsign,tgid
 52070,Thailand Regian 7,52070
 52080,Thailand Regian 8,52080
 52090,Thailand Regian 9,52090
+640,Tanzania ,640
+436,Tajikistan ,436
 46600,Taiwan,46600
+466,Taiwan ,466
+417,Syria ,417
 228,Switzerland,228
 2280,Swiss German,2280
 2281,Suisse Romande,2281
@@ -270,6 +281,11 @@ id,callsign,tgid
 22813,Alpes Vaudoises,22813
 22814,Alpes Valaisannes,22814
 228112,EmComm Suisse (Emergency Communication),228112
+240,Sweden,240
+653,Swaziland ,653
+746,Suriname ,746
+634,Sudan ,634
+413,Sri Lanka ,413
 214,National Spain (P),214
 2141,ZONE 1 EA,2141
 2142,ZONE 2 EA,2142
@@ -287,6 +303,25 @@ id,callsign,tgid
 214091,ARSA-CNP,214091
 214112,EMERGENCY,214112
 21465,ADER,21465
+655,South Africa ,655
+637,Somalia ,637
+540,Solomon Islands ,540
+293,Slovenia ,293
+231,Slovakia ,231
+525,Singapore ,525
+619,Sierra Leone ,619
+633,Seychelles ,633
+220,Serbia ,220
+608,Senegal ,608
+420,Saudi Arabia ,420
+626,Sao Tome and Principe ,626
+292,San Marino ,292
+549,Samoa ,549
+360,Saint Vincent and the Grenadines ,360
+358,Saint Lucia ,358
+356,Saint Kitts and Nevis ,356
+635,Rwanda ,635
+250,Russian Federation ,250
 226,Romania National,226
 2260,Romania Chatter,2260
 2262,Romania District YO2,2262
@@ -297,13 +332,8 @@ id,callsign,tgid
 2267,Romania District YO7,2267
 2268,Romania District YO8,2268
 2269,Romania District YO9,2269
-22601,Romania D-Star YO,22601
-22602,Romania SVXLink Bridge,22602
-22603,Romania RoLink Bridge,22603
-22604,Romania SvxNet Bridge,22604
-22605,Romania Maramures County,22605
-226999,Romania Parrot,226999
 647,Reunion ,647
+427,Qatar ,427
 330,National,330
 3300,PR00,3300
 3301,PR01,3301
@@ -336,6 +366,7 @@ id,callsign,tgid
 2687,Madeira Is.,2687
 2688,Portugal EchoLink-ETR,2688
 2689,Portugal Azores AllStar,2689
+26810,Portugal-TETRA,26810
 260,Poland HBLink,260
 26000,Techniczna,26000
 260201,Chojnice,260201
@@ -355,8 +386,11 @@ id,callsign,tgid
 260928,Orzesze,260928
 515025,DX2ACV,515025
 51547,KAPIHAN Network,51547
+515,Philippines ,515
 716,Peru,716
 7160,Peru Digital / XLX716 C,7160
+744,Paraguay ,744
+537,Papua New Guinea ,537
 714,Panama,714
 7143,Panama WiresX,7143
 7144,Chiriqui Link Panama,7144
@@ -368,8 +402,14 @@ id,callsign,tgid
 71410,Trx West,71410
 714911,Emergencia Panama,714911
 714999,D-APRS 714999,714999
+4251,Palestine,4251
+552,Palau ,552
 41033,FM Network,41033
 410,DMR Net,410
+422,Oman ,422
+242,Norway ,242
+621,Nigeria ,621
+614,Niger ,614
 710,YN-Nacional,710
 7101,Zona YN1,7101
 7102,Zona YN2,7102
@@ -398,22 +438,62 @@ id,callsign,tgid
 20410,Nederlands-Zuid Holland,20410
 20411,Nederlands-Utrecht,20411
 204112,Nederlands-Emergency,204112
+429,Nepal ,429
+536,Nauru ,536
+649,Namibia ,649
+414,Myanmar ,414
+643,Mozambique ,643
 604,Morocco-National,604
 6041,Cross Mode DMR = ANALOGUE,6041
 60401,DMR-MAROC,60401
 60410,EL Jadida,60410
+354,Montserrat,354
+297,Montenegro ,297
+428,Mongolia ,428
+212,Monaco ,212
+259,Moldova ,259
+550,Micronesia Federated ,550
 334,National,334
 3341,XE1 Zone,3341
 3342,XE2 Zone,3342
 3343,XE3 Zone,3343
 3340,Cross Connect - DMR+ YSF Mexico,3340
 33455,Experimentation,33455
+617,Mauritius ,617
+609,Mauritania ,609
+551,Marshall Islands ,551
+278,Malta ,278
+610,Mali ,610
+472,Maldives ,472
+502,Malaysia ,502
+650,Malawi ,650
+646,Madagascar ,646
+294,Macedonia,294
+455,Macau,455
+270,Luxembourg ,270
+246,Lithuania ,246
+295,Liechtenstein ,295
+606,Libya ,606
+618,Liberia ,618
+651,Lesotho ,651
+415,Lebanon ,415
+247,Latvia ,247
+457,Laos ,457
+437,Kyrgyzstan ,437
+419,Kuwait ,419
+450,Korea South ,450
+467,Korea North ,467
+545,Kiribati ,545
+639,Kenya ,639
+401,Kazakhstan ,401
+416,Jordan ,416
 440,Call-QSY,440
 4401,Chat 1,4401
 4402,Chat 2,4402
 4403,Chat 3,4403
 4404,Chat 4,4404
 4405,Chat 5,4405
+338,Jamaica ,338
 222,Italy,222
 22201,Lazio,22201
 22202,Sardegna,22202
@@ -446,61 +526,27 @@ id,callsign,tgid
 222995,Multi Bridge,222995
 22276,TRANI (BT) Conference,22276
 22200,MP FreeDMR IT,22200
-272,NRSI,272
-2720,JOTA / JOTI & YOUTH,2720
-2721,Administration  / Support,2721
+425,Israel ,425
+272,Ireland,272
+2720,Ireland 0,2720
+2721,Ireland 1,2721
 2722,Ireland Calling,2722
 2723,Ireland Chat,2723
-2724,YSF Ireland ID 02724,2724
-2725,Multimode Bridging,2725
-2726,Experimental / Homebrew,2726
-2727,Portable and Land Mobile,2727
-2728,Maritime Mobile,2728
-2729,Space / AMSAT Ireland,2729
-27210,Connacht Province Call/Chat,27210
-27211,C2 – Connacht Chat 2,27211
-27212,C3 – Connacht Chat 3,27212
-27213,C4 – Connacht Chat 4,27213
-27214,C5 – Connacht Chat 5,27214
-27215,Leinster Province Call/Chat,27215
-27216,L2 – Leinster Chat 2,27216
-27217,L3 – Leinster Chat 3,27217
-27218,L4 – Leinster Chat 4,27218
-27219,L5 – Leinster Chat 5,27219
-27220,Munster Province Call/Chat,27220
-27221,M2 – Munster Chat 2,27221
-27222,M3 – Munster Chat 3,27222
-27223,M4 – Munster Chat 4,27223
-27224,M5 – Munster Chat 5,27224
-27225,Ulster Province Call/Chat,27225
-27226,U2 – Ulster Chat 2,27226
-27227,U3 – Ulster Chat 3,27227
-27228,U4 – Ulster Chat 4,27228
-27229,U5 – Ulster Chat 5,27229
-27230,Midlands Region Call/Chat,27230
-27231,MID2 – Midlands Chat 2,27231
-27232,MID3 – Midlands Chat 3,27232
-27233,MID4 – Midlands Chat 4,27233
-27234,MID5 – Midlands Chat 5,27234
-27235,Islands Call/Chat,27235
-27236,I2 – Island Chat 2,27236
-27237,I3 – Island Chat 3,27237
-27238,I4 – Island Chat 4,27238
-27239,I5 – Island Chat 5,27239
-27241,Low and Medium Frequency,27241
-27242,High Frequency,27242
-27243,Very High Frequency,27243
-27244,Ultra High Frequency,27244
-27245,Microwave,27245
-27246,Contest,27246
-27247,DX Ireland,27247
-27250,Data,27250
-27271,Youth,27271
-27288,YL and XYL,27288
-27290,National Emergency Alert,27290
-27291,IECRO Primary,27291
-27292,IECRO Secondary,27292
+418,Iraq ,418
+432,Iran ,432
+510,Indonesia ,510
+404,India ,404
+274,Iceland ,274
+216,Hungary ,216
+454,Hong Kong,454
+708,Honduras ,708
+372,Haiti ,372
+738,Guyana ,738
+632,Guinea-Bissau ,632
+611,Guinea ,611
 704,Guatemala,704
+311,Guam ,311
+352,Grenada ,352
 202,Greece DV Wires X 88943-YSF 00202,202
 2021,Central Greece,2021
 2022,Central & West Macedonia,2022
@@ -517,6 +563,8 @@ id,callsign,tgid
 20241,Trikala Greece,20241
 20261,Ioannina Greece,20261
 20281,Kerkyra DV - YSF 20281,20281
+266,Gibraltar ,266
+620,Ghana ,620
 262,DL National ,262
 2620,Sachsen-Anhalt/Mecklenburg-Vorpommern,2620
 26257,DE-Kusel,26257
@@ -532,6 +580,9 @@ id,callsign,tgid
 2628,Bayern,2628
 26200,TAC1,26200
 26299,TAC2,26299
+282,Georgia ,282
+607,Gambia ,607
+628,Gabon ,628
 208,France DMR+,208
 2081,France IDF,2081
 2082,France Sud-Est,2082
@@ -559,8 +610,15 @@ id,callsign,tgid
 208000,YSF France-Wide ID 64879,208000
 20899,FRANCE Multi-Protocoles,20899
 20869,Lyon et Rhone,20869
+244,Finland ,244
+542,Fiji ,542
+288,Faroe Islands ,288
+636,Ethiopia ,636
+248,Estonia ,248
 21475,NAVARLIK RADIO EMERGENCIAS NAVARRA,21475
 21470,RADIO MONTAÑA PIRINEOS,21470
+657,Eritrea ,657
+627,Equatorial Guinea ,627
 706,El Salvador,706
 70600,XLX051-J,70600
 70601,Zona YS1,70601
@@ -570,9 +628,10 @@ id,callsign,tgid
 70605,CRAS,70605
 706911,Emergencias,706911
 706003,XLX503-C NET DIGITAL CENTROAMERICANA,706003
+602,Egypt ,602
 740,Ecuador,740
 7401,Ecuador HC3 Loja,7401
-7406,AMBATO,7406
+7406,RADE ECUADOR,7406
 74001,CARCHI-IMBABURA-PICHINCHA,74001
 74002,GUAYAS LOS RIOS,74002
 74003,LOJA - EL ORO,74003
@@ -582,6 +641,7 @@ id,callsign,tgid
 74007,ZAMORA CHINCHIPE- MORONA SANTIAGO-NAPO- PASTAZA- SUCUMBIOS,74007
 74008,GALAPAGOS,74008
 740911,EMERGENCIAS,740911
+514,East Timor ,514
 370,DR National,370
 3700,El Kiosko,3700
 3701,DR Zone 1,3701
@@ -596,13 +656,21 @@ id,callsign,tgid
 37030,Skynet,37030
 37040,DR Multiprotocolo,37040
 37050,DR Tech,37050
+366,Dominica ,366
+638,Djibouti ,638
 238,Denmark,238
 2381,Denmark Nordjylland,2381
 2382,Denmark Midtjylland,2382
 2383,Denmark Syddanmark,2383
 2384,Denmark Copenhagen,2384
 2385,Denmark Sjaelland,2385
+230,Czech Republic ,230
+280,Cyprus ,280
+368,Cuba ,368
+219,Croatia ,219
 712,Costa Rica,712
+548,Cook Islands,548
+654,Comoros ,654
 732,HK. National,732
 7320,HK0 Atlantico,7320
 7321,HK1 Cesar,7321
@@ -621,6 +689,7 @@ id,callsign,tgid
 46010,CN 46010 Talkgroup of Bejing,46010
 46055,CN 46055 Talkgroup of ZheJiang,46055
 46516,CN 46516 Talkgroup of XuZhou,46516
+460,China ,460
 730,CHILE - Nacional,730
 7301,CE1 Zona1 Arica - Atacama,7301
 7302,CE2 Zona2 Coquimbo -Valparaiso,7302
@@ -646,7 +715,7 @@ id,callsign,tgid
 7300,CE0 Zona0 Chile Insular,7300
 730911,EMMCOM Chile,730911
 73010,CL-Link YSF51028-wrX81510,73010
-73020,XLX200-TG73020,73020
+73020,CL-Link XLX200,73020
 730907,JOTA-Chile,730907
 730170,*REDCHILE* Echolink,730170
 73088,CE4YLC Yankee Lima Chile,73088
@@ -655,7 +724,11 @@ id,callsign,tgid
 73046,San Fernando UHF,73046
 73061,Villarrica-Pucon VHF,73061
 73062,Villarrica-Pucon UHF,73062
+622,Chad ,622
 7000,Red Digital Centroamericana,7000
+623,Central African Republic ,623
+346,Cayman Islands,346
+625,Cape Verde ,625
 302,Canada Wide  Yukon & NWT,302
 3020,Newfoundland & Labrador & P.E.I.,3020
 3021,Nova Scotia,3021
@@ -667,6 +740,10 @@ id,callsign,tgid
 3027,British Columbia,3027
 3028,Nunavut Yukon & NWT,3028
 3029,New Brunswick,3029
+624,Cameroon ,624
+456,Cambodia ,456
+642,Burundi ,642
+613,Burkina Faso ,613
 284,BG National - YSF 45047,284
 2842,Sofia,2842
 2843,Plovdiv,2843
@@ -675,8 +752,9 @@ id,callsign,tgid
 2846,Sliven,2846
 28411,HBLink-BULGARIA,28411
 284016,South East Bulgaria,284016
-2840,Bulgaria DMR+,2840
 284977,FDMR BG-Private,284977
+528,Brunei ,528
+348,British Virgin Islands,348
 724,Brasil National,724
 7241,Norte,7241
 7242,Nordeste,7242
@@ -713,6 +791,12 @@ id,callsign,tgid
 72496,Amapa,72496
 72498,Maranhao,72498
 72410,YSF Maceio 75666,72410
+652,Botswana ,652
+218,Bosnia and Herzegovina ,218
+736,Bolivia ,736
+402,Bhutan ,402
+350,Bermuda ,350
+616,Benin ,616
 206,Belgium-National,206
 2061,Belgium-North,2061
 2062,Belgium-South,2062
@@ -735,6 +819,13 @@ id,callsign,tgid
 20609,Belgium-O.Vlanderen,20609
 20610,Belgium-W.Vlanderen,20610
 206112,Belgium-Emergency,206112
+257,Belarus ,257
+342,Barbados ,342
+470,Bangladesh ,470
+426,Bahrain ,426
+364,Bahamas ,364
+400,Azerbaijan ,400
+232,Austria,232
 505,Australlia - National Calling,505
 5050,Australia - News Nets and Ragchews,5050
 5052,Australia - Eastern States,5052
@@ -743,13 +834,24 @@ id,callsign,tgid
 50599,Australia - Dial-A-Node,50599
 50556,ANZEL Echolink Network,50556
 50510,FM RepeaterLink VK/ZL,50510
+363,Aruba ,363
+283,Armenia ,283
 722,*NACIONAL ARG* 722,722
 7221,*TEST ARG* 7221,7221
 7222,*CUYO DIGITAL* 7222,7222
-7223,*NOA DIGITA* 7223,7223
+7223,*NOA DIGITAL* 7223,7223
 7224,*PATAGONIA DIGITAL* 7224,7224
 7225,*ARG DIGITAL*  TG 7225 * ,7225
 7226,*COSTA ATLANTICA* 7226,7226
 7227,*RIOPLATENCE DIDITAL* 7227,7227
 7228,*PAMPA DIGITAL* 7228,7228
 7229,*EMERGENCIAS ARG* 7229,7229
+72254,EchoLink-ARG-LU,72254
+344,Antigua and Barbuda ,344
+365,Anguilla ,365
+631,Angola ,631
+213,Andorra ,213
+544,American Samoa ,544
+603,Algeria ,603
+276,Albania ,276
+412,Afghanistan ,412

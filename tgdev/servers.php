@@ -20,7 +20,7 @@
         <?php
         	include('../dbconfig.php');
         	$MCC = $_SESSION['mcc'];
-        	if($_SESSION['isadmin'] == 1)
+        	if($_SESSION['isadmin'] == 1 OR $_SESSION['isadmin'] == 2)
   {
     $query=mysqli_query($db,"select * from `SERVERS` ORDER BY NAME ASC");
   } else {
@@ -41,37 +41,23 @@
 		</thead>
 		<tbody><td><?php echo $_SESSION['username']; ?></td><td><?php echo $_SESSION['mcc']; ?></td><td><?php echo $_SESSION['isadmin']; ?></td></tbody>
 		</table></br></br>
-	    <p align="center"><a href="../" class="btn btn-success">Return to Homepage</a> <a href="../" class="btn btn-warning">Return to TG Manager</a> <a href="login.php" class="btn btn-danger">Log Out</a></br></br></p>
+	    <p align="center"><a href="../" class="btn btn-success">Return to Homepage</a> <a href="../tgdev" class="btn btn-warning">Return to TG Manager</a> <a href="login.php" class="btn btn-danger">Log Out</a></br></br></p>
 	    <div>
-		<?php	if($_SESSION['isadmin'] == 1) 
+		<?php	if($_SESSION['isadmin'] == 2) 
 		{ 
 		echo '<form id="tgedit" method="POST" action="add-server.php">
 		    <table class="table table-striped table-bordered">
-			<thead class="thead-dark">
-		    <th>Submit New Server</br></br>Server ID</th>
-		    <th>Name (Max 100 Characters)</th>
-		    <th>Website</th>
-		    <th>Dashboard</th>
-		    <th>Hostname</th>
-		    <th>Telegram</th>
-		    <th>Facebook</th>
-		    <th>Twitter</th>
-		    <th>Other</th>
-		    <th>MCC & Flag</th>
-		    <th>Functions</th>
-		    </thead>
 		    <tbody>
-		    <td><input id="serverid" type="number" minlength="4" maxlength="7" name="serverid" required></td>
-			<td><input id="name" type="text" minlength="3" maxlength="100" name="name" required></td>
-			<td><input id="website" type="text" minlength="2" maxlength="100" name="website"></td>
-			<td><input id="dashboard1" type="text" minlength="2" maxlength="100" name="dashboard1" required</td>
-			<td><input id="host" type="text" name="host" required</td>
-			<td><input id="telegram" name="telegram" type="text"</td>
-			<td><input id="facebook" name="facebook" type="text"</td>
-			<td><input id="twitter" name="twitter" type="text"</td>
-			<td><input id="other" name="other" type="text"</td>
-			<td><input id="mcc" type="number" minlength="3" maxlength="6" name="mcc" required></td>
-			<td><input class="btn btn-success" type="submit" name="add"></td>
+		    <tr><th>Submit New Server</th></tr>
+		    <tr><th>Server ID</th><td><input id="serverid" type="number" minlength="4" maxlength="7" name="serverid" size="7" required></td></tr>
+			<tr><th>Name (Max 30 chars)</th><td><input id="name" type="text" size="30" minlength="3" maxlength="30" name="name" required></td></tr>
+			<tr><th>Website (Full URL with http/https)</th><td><input id="website" type="text" size="30" minlength="2" maxlength="30" name="website"></td></tr>
+			<tr><th>Dashboard (URL to Main Dashboard)</th><td><input id="dashboard" type="text" size="30" minlength="2" maxlength="30" name="dashboard" required</td></tr>
+			<tr><th>Dashboard 2 (URL to Secondary Dashboard)</th><td><input id="dashboard2" type="text" maxlength="30" size="30" name="dashboard2"</td></tr>
+			<tr><th>Telegram (Leave out @)</th><td><input id="telegram" name="telegram" type="text" size="30" maxlength="30"></td></tr>
+			<tr><th>Social Media (URL to Group or Page)</th><td><input id="socials" name="socials" size="80" maxlength="80" type="text"</td></tr>
+			<tr><th>MCC</th><td><input id="mcc" type="number" minlength="3" maxlength="6" size="6" name="mcc" required></td></tr>
+			<tr><td><input class="btn btn-success" type="submit" name="add"></td></tr>
 			</tbody></table>
 		</form>';
 		} ?>
@@ -85,15 +71,13 @@ $("#tgedit").validate();
 		<table class="table table-striped table-bordered">
 			<thead class="thead-dark">
 			<th>Edit existing Server</th>
-		    <th>Name (Max 100 Characters)</th>
+		    <th>Name</th>
 		    <th>Website</th>
 		    <th>Dashboard</th>
-		    <th>Hostname</th>
+		    <th>Dashboard 2</th>
 		    <th>Telegram</th>
-		    <th>Facebook</th>
-		    <th>Twitter</th>
-		    <th>Other</th>
-		    <th>MCC & Flag</th>
+		    <th>Social Media</th>
+		    <th>MCC</th>
 		    <th>Functions</th>
 			</thead>
 			<tbody>
@@ -103,13 +87,11 @@ $("#tgedit").validate();
 						<tr>
 							<td><?php echo $row['serverid']; ?></td>
 							<td><?php echo $row['name']; ?></td>
-							<td><a href="<?php echo $row['website']; ?>"><?php echo $row['website']; ?></a></td>
-							<td><a href="<?php echo $row['dashboard1']; ?>"><?php echo $row['dashboard1']; ?></a></td>
-							<td><?php echo $row['host']; ?></td>
-							<td><a href="<?php echo $row['telegram']; ?>"><?php echo $row['telegram']; ?></a></td>
-							<td><a href="<?php echo $row['facebook']; ?>"><?php echo $row['facebook']; ?></a></td>
-							<td><a href="<?php echo $row['twitter']; ?>"><?php echo $row['twitter']; ?></a></td>
-							<td><?php echo $row['other']; ?></td>
+							<td><a href="<?php echo $row['website']; ?> " target="_blank"><?php echo $row['website']; ?></a></td>
+							<td><a href="<?php echo $row['dashboard']; ?>" target="_blank"><?php echo $row['dashboard']; ?></a></td>
+							<td><a href="<?php echo $row['dashboard2']; ?>" target="_blank"><?php echo $row['dashboard2']; ?></a></td>
+							<td><a href="https://t.me/<?php echo $row['telegram']; ?>" target="_blank"><?php echo $row['telegram']; ?></a></td>
+							<td><a href="<?php echo $row['socials']; ?>" target="_blank"><?php echo $row['socials']; ?></a></td>
 							<td><?php echo $row['mcc']; ?> <img src="../flags/<?php echo $row['mcc']; ?>.png"</img> </td>
 							<td>
 							<a href="edit-server.php?id=<?php echo $row['serverid']; ?>" class="btn btn-success">Manage Server</a>

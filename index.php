@@ -14,8 +14,9 @@ include_once 'dbconfig.php';
     <h2 align="center"><img src="logo.png" /></br></br>FreeDMR Talkgroup Export</h2></br>
 <div class="col-md-12 head">
     <div align="center" class="float-right">
-        <a href="talkgroup_ids_csv.php" class="btn btn-success"><i class="dwn"></i>Live CSV</a> <a href="talkgroup_ids_json.php" class="btn btn-success"><i class="dwn"></i>Live JSON</a> <a href="talkgroup_ids_flags_json.php" class="btn btn-success"><i class="dwn"></i>Live JSON with Flags</a> <a href="Talkgroups_FreeDMR.csv" class="btn btn-success"><i class="dwn"></i>Talkgroups_FreeDMR.csv</a> <a href="talkgroup_ids.csv" class="btn btn-success"><i class="dwn"></i>talkgroup_ids.csv</a> <a href="Talkgroups_Bridges.csv" class="btn btn-success"><i class="dwn"></i>Talkgroups_Bridges.csv</a> 
-        <a href="tgmanager" class="btn btn-danger"><i class="dwn"></i> Manage TG Database</a> <a href="tgid_cron.php" class="btn btn-warning"><i class="dwn"></i> Manually update CSVs</a></br></br>
+        <a href="talkgroup_ids_csv.php" class="btn btn-success"><i class="dwn"></i>Live CSV</a> <a href="talkgroup_ids_json.php" class="btn btn-success"><i class="dwn"></i>Live JSON</a> <a href="talkgroup_ids_flags_json.php" class="btn btn-success"><i class="dwn"></i>Live JSON with Flags</a></br></br>
+        <a href="Talkgroups_FreeDMR.csv" class="btn btn-success"><i class="dwn"></i>Talkgroups_FreeDMR.csv</a> <a href="talkgroup_ids.csv" class="btn btn-success"><i class="dwn"></i>talkgroup_ids.csv</a> <a href="Talkgroups_Bridges.csv" class="btn btn-success"><i class="dwn"></i>Talkgroups_Bridges.csv</a> <a href="server_list.csv" class="btn btn-success"><i class="dwn"></i>server_list.csv</a></br></br>
+        <a href="tgdev" class="btn btn-danger"><i class="dwn"></i> Manage TG Database</a> <a href="tgdev/servers.php" class="btn btn-danger"><i class="dwn"></i> Manage Server Listings</a> <a href="tgid_cron.php" class="btn btn-warning"><i class="dwn"></i> Manually update CSVs</a></br></br>
         <?php
 $result = $db->query("SELECT * FROM TALKGROUPS ORDER BY COUNTRY ASC, TALKGROUP ASC"); 
 $counter = $result->num_rows;

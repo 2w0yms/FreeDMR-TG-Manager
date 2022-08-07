@@ -9,15 +9,13 @@
     $serverid=$_POST['serverid'];
 	$name=$_POST['name'];
 	$website=$_POST['website'];
-	$dashboard1=$_POST['dashboard1'];
-	$host=$_POST['host'];
+	$dashboard=$_POST['dashboard'];
+	$dashboard2=$_POST['dashboard2'];
 	$telegram=$_POST['telegram'];
-	$facebook=$_POST['facebook'];
-	$twitter=$_POST['twitter'];
-	$other=$_POST['other'];
+	$socials=$_POST['socials'];
 	$mcc=$_POST['mcc'];
  
-	mysqli_query($db,"insert into `SERVERS` (serverid,name,website,dashboard1,host,telegram,facebook,twitter,other,mcc) values ('$serverid','$name','$website','$dashboard1','$host','$telegram','$facebook','$twitter','$other','$mcc')");
+	mysqli_query($db,"insert into `SERVERS` (serverid,name,website,dashboard,dashboard2,telegram,socials,mcc) values ('$serverid','$name','$website','$dashboard','$dashboard2','$telegram','$socials','$mcc')");
 	header('location:servers.php');
  
 ?>

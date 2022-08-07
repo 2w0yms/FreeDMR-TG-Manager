@@ -20,7 +20,7 @@
         <?php
         	include('../dbconfig.php');
         	$MCC = $_SESSION['mcc'];
-        	if($_SESSION['isadmin'] == 1)
+        	if($_SESSION['isadmin'] == 1 OR $_SESSION['isadmin'] == 2)
   {
     $query=mysqli_query($db,"select * from `TALKGROUPS` ORDER BY COUNTRY ASC, TALKGROUP ASC");
   } else {
@@ -41,22 +41,24 @@
 		</thead>
 		<tbody><td><?php echo $_SESSION['username']; ?></td><td><?php echo $_SESSION['mcc']; ?></td><td><?php echo $_SESSION['isadmin']; ?></td></tbody>
 		</table></br></br>
-	    <p align="center"><a href="../" class="btn btn-success">Return to Homepage</a> <a href="servers.php" class="btn btn-warning">Manage Server listing</a> <?php if($_SESSION['isadmin'] == 1){ echo '<a href="create_user.php" class="btn btn-warning">Add User</a>'; } ?> <a href="login.php" class="btn btn-danger">Log Out</a></br></br></p>
+	    <p align="center"><a href="../" class="btn btn-success">Return to Homepage</a> <a href="servers.php" class="btn btn-danger">Manage Server Listings</a> <?php if($_SESSION['isadmin'] == 2){ echo '<a href="create_user.php" class="btn btn-warning">Add User</a>'; } ?> <a href="login.php" class="btn btn-danger">Log Out</a></br></br></p>
 	    <div>
 		<form id="tgedit" method="POST" action="add.php">
 		    <table class="table table-striped table-bordered">
 			<thead class="thead-dark">
 		    <th>Submit New Talkgroup</br></br>Talkgroup</th>
-		    <th>Name (Max 60 Characters)</th>
-		    <th>Country</th>
+		    <th>Name (Max 30 Chars)</th>
+		    <th>Bridges (Max 60 Chars)</th>
+		    <th>Country (Max 35 Chars)</th>
 		    <th>MCC</th>
 		    <th>Functions</th>
 		    </thead>
 		    <tbody>
-		    <td><input id="TALKGROUP" type="number" minlength="4" maxlength="7" name="TALKGROUP" required></td>
-			<td><input id="NAME" type="text" minlength="3" maxlength="60" name="NAME" required></td>
-			<td><input id="COUNTRY" type="text" minlength="2" maxlength="30" name="COUNTRY" required></td>
-			<td><?php	if($_SESSION['isadmin'] == 1)
+		    <td><input id="TALKGROUP" type="number" minlength="4" maxlength="5" name="TALKGROUP" required></td>
+			<td><input id="NAME" type="text" minlength="3" maxlength="30" name="NAME" required></td>
+			<td><input id="BRIDGES" type="text" minlength="3" maxlength="60" name="BRIDGES"></td>
+			<td><input id="COUNTRY" type="text" minlength="2" maxlength="35" name="COUNTRY" required></td>
+			<td><?php	if($_SESSION['isadmin'] == 1 OR $_SESSION['isadmin'] == 2)
   {
     echo '<input id="MCC" type="number" minlength="3" maxlength="6" name="MCC" required>';
   } else {
@@ -79,6 +81,7 @@ $("#tgedit").validate();
 			<thead class="thead-dark">
 				<th>Manage Existing Talkgroup</th>
 				<th>Name</th>
+				<th>Bridges</th>
 				<th>Country</th>
 				<th>MCC</th>
 				<th>Functions</th>
@@ -89,7 +92,8 @@ $("#tgedit").validate();
 						?>
 						<tr>
 							<td><?php echo $row['TALKGROUP']; ?></td>
-							<td><?php echo $row['NAME']; ?></td>
+							<td><img src='http://freedmr.cymru/talkgroups/flags/<?php echo $row['MCC']; ?>.png' /> <?php echo $row['NAME']; ?></td>
+							<td><?php echo $row['BRIDGES']; ?></td>
 							<td><?php echo $row['COUNTRY']; ?></td>
 							<td><?php echo $row['MCC']; ?></td>
 							<td>

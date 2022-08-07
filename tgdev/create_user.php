@@ -6,7 +6,7 @@
     header('Location: login.php');
     exit();
   }
-  if($_SESSION['isadmin'] != 1)
+  if($_SESSION['isadmin'] != 2)
   {
     header('Location: login.php');
     exit();
@@ -31,7 +31,7 @@
 <form action="insert_user.php" method="post">
 <table class="table table-striped table-bordered">
 <thead class="thead-dark">
-    <th>Username</th><th>Password</th><th>Permitted MCC</th><th>Is system admin - 1 (yes) or 0 (no)</th><th>Submit</th>
+    <th>Username</th><th>Password</th><th>Permitted MCC</th><th>Admin Level<br/> 0 (Own MCC)<br/> 1 (All MCC)<br/> 2 (Can add Servers / Users)</th><th>Submit</th>
     </thead>
     <tbody><td><input size=\"30\" type="text" size="30" maxlength="30" name="new_username"></td><td><input size=\"30\" type="password" size="30" maxlength="30" name="new_password"></td>
     <td><input size=\"5\" type="number" size="5" maxlength="5" name="new_mcc"></td><td><input size=\"1\" type="number" size="1" maxlength="1" name="is_admin"></td>
