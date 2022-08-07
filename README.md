@@ -7,6 +7,6 @@ V2 now allows sysops to manage server listings, also has user management restric
 Admin Levels for Users
 0 - Own TGs / Servers by MCC
 1 - Can edit all TGs / Servers
-2 - Can add / delete Servers
+2 - Can add / delete Servers & Add Users
 
 Requires PHP, MySQL, Apache2 web server
