@@ -27,9 +27,9 @@
 	    <table class="table table-striped table-bordered">
 		<tbody class="thead-dark">
 		<tr><th>Name (Max 30 Chars)</td><td><input id="name" type="text" size="30" minlength="3" maxlength="30" value="<?php echo $row['name']; ?>" name="name" required></td></tr>
-		<tr><th>Website (Full URL with http/https)</th><td><input id="website" type="text" size="30" maxlength="30" value="<?php echo $row['website']; ?>" name="website"></td></tr>
-		<tr><th>Dashboard (URL to Main Dashboard)</th><td><input id="dashboard" type="text" size="30" minlength="3" maxlength="30" value="<?php echo $row['dashboard']; ?>" name="dashboard" required></td></tr>
-		<tr><th>Dashboard 2 (URL to Secondary Dashboard)</th><td><input id="dashboard2" type="text" size="30" maxlength="30" value="<?php echo $row['dashboard2']; ?>" name="dashboard2"></td></tr>
+		<tr><th>Website (Full URL with http/https)</th><td><input id="website" type="text" size="50" maxlength="50" value="<?php echo $row['website']; ?>" name="website"></td></tr>
+		<tr><th>Dashboard (URL to Main Dashboard)</th><td><input id="dashboard" type="text" size="50" minlength="3" maxlength="50" value="<?php echo $row['dashboard']; ?>" name="dashboard" required></td></tr>
+		<tr><th>Dashboard 2 (URL to Secondary Dashboard)</th><td><input id="dashboard2" type="text" size="50" maxlength="50" value="<?php echo $row['dashboard2']; ?>" name="dashboard2"></td></tr>
 		<tr><th>Telegram (Leave out @)</th><td><input id="telegram" type="text" size="30" maxlength="30" value="<?php echo $row['telegram']; ?>" name="telegram"></td></tr>
 		<tr><th>Social Media (URL to Group or Page)</th><td><input id="socials" type="text" size="80" maxlength="80" value="<?php echo $row['socials']; ?>" name="socials"></td></tr>
 		<tr><th>MCC</th><td><input id="mcc" type="number" minlength="3" maxlength="6" value="<?php echo $row['mcc']; ?>" name="mcc" required></td></tr>
