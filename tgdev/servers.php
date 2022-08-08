@@ -51,9 +51,9 @@
 		    <tr><th>Submit New Server</th></tr>
 		    <tr><th>Server ID</th><td><input id="serverid" type="number" minlength="4" maxlength="7" name="serverid" size="7" required></td></tr>
 			<tr><th>Name (Max 30 chars)</th><td><input id="name" type="text" size="30" minlength="3" maxlength="30" name="name" required></td></tr>
-			<tr><th>Website (Full URL with http/https)</th><td><input id="website" type="text" size="30" minlength="2" maxlength="30" name="website"></td></tr>
-			<tr><th>Dashboard (URL to Main Dashboard)</th><td><input id="dashboard" type="text" size="30" minlength="2" maxlength="30" name="dashboard" required</td></tr>
-			<tr><th>Dashboard 2 (URL to Secondary Dashboard)</th><td><input id="dashboard2" type="text" maxlength="30" size="30" name="dashboard2"</td></tr>
+			<tr><th>Website (Full URL with http/https)</th><td><input id="website" type="text" size="50" minlength="2" maxlength="50" name="website"></td></tr>
+			<tr><th>Dashboard (URL to Main Dashboard)</th><td><input id="dashboard" type="text" size="50" minlength="2" maxlength="50" name="dashboard" required</td></tr>
+			<tr><th>Dashboard 2 (URL to Secondary Dashboard)</th><td><input id="dashboard2" type="text" maxlength="50" size="50" name="dashboard2"</td></tr>
 			<tr><th>Telegram (Leave out @)</th><td><input id="telegram" name="telegram" type="text" size="30" maxlength="30"></td></tr>
 			<tr><th>Social Media (URL to Group or Page)</th><td><input id="socials" name="socials" size="80" maxlength="80" type="text"</td></tr>
 			<tr><th>MCC</th><td><input id="mcc" type="number" minlength="3" maxlength="6" size="6" name="mcc" required></td></tr>
