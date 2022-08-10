@@ -1,8 +1,8 @@
 <link href="bootstrap.css" rel="stylesheet">
 
 <?php 
-$backupdir = "/home/freedmr/web/freedmr.cymru/public_html/talkgroups/backups";
-$csvdir = "/home/freedmr/web/freedmr.cymru/public_html/talkgroups";
+$backupdir = "/home/freedmr/public_html/talkgroups/backups";
+$csvdir = "/home/freedmr/public_html/talkgroups";
  
 // Load the database configuration file 
 include_once 'dbconfig.php'; 
