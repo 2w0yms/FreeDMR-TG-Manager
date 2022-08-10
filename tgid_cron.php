@@ -1,25 +1,27 @@
 <link href="bootstrap.css" rel="stylesheet">
 
 <?php 
+$backupdir = "/home/freedmr/web/freedmr.cymru/public_html/talkgroups/backups";
+$csvdir = "/home/freedmr/web/freedmr.cymru/public_html/talkgroups";
  
 // Load the database configuration file 
 include_once 'dbconfig.php'; 
  
-copy("Talkgroups_FreeDMR.csv", "Talkgroups_FreeDMR_backup.csv");
-copy("Talkgroups_Bridges.csv", "Talkgroups_Bridges_backup.csv");
-copy("talkgroup_ids.csv", "talkgroup_ids_backup.csv");
-copy("server_list.csv", "server_list_backup.csv");
-unlink('talkgroup_ids.csv');
-unlink('Talkgroups_FreeDMR.csv');
-unlink('Talkgroups_Bridges.csv');
-unlink('server_list.csv');
+copy("$csvdir/Talkgroups_FreeDMR.csv", "$backupdir/Talkgroups_FreeDMR_backup.csv");
+copy("$csvdir/Talkgroups_Bridges.csv", "$backupdir/Talkgroups_Bridges_backup.csv");
+copy("$csvdir/talkgroup_ids.csv", "$backupdir/talkgroup_ids_backup.csv");
+copy("$csvdir/server_list.csv", "$backupdir/server_list_backup.csv");
+unlink("$csvdir/talkgroup_ids.csv");
+unlink("$csvdir/Talkgroups_FreeDMR.csv");
+unlink("$csvdir/Talkgroups_Bridges.csv");
+unlink("$csvdir/server_list.csv");
 
 // Fetch records from database 
 $query = $db->query("SELECT * FROM TALKGROUPS ORDER BY COUNTRY DESC");
 $counter = $query->num_rows;
 
 if($query->num_rows > 0){ 
-    $filename = "talkgroup_ids.csv";
+    $filename = "$csvdir/talkgroup_ids.csv";
     // Create a file pointer 
     $f = fopen($filename, 'a');
     
@@ -44,7 +46,7 @@ fclose($f);
 $query = $db->query("SELECT * FROM TALKGROUPS ORDER BY COUNTRY DESC"); 
 
 if($query->num_rows > 0){ 
-    $filename = "Talkgroups_FreeDMR.csv"; 
+    $filename = "$csvdir/Talkgroups_FreeDMR.csv"; 
      
     // Create a file pointer 
     $f = fopen($filename, 'a');
@@ -72,7 +74,7 @@ fclose($f);
 $query = $db->query("SELECT * FROM TALKGROUPS ORDER BY COUNTRY DESC"); 
 
 if($query->num_rows > 0){ 
-    $filename = "Talkgroups_Bridges.csv"; 
+    $filename = "$csvdir/Talkgroups_Bridges.csv"; 
      
     // Create a file pointer 
     $f = fopen($filename, 'a');
@@ -103,7 +105,7 @@ $query = $db->query("SELECT * FROM SERVERS ORDER BY name ASC");
 $counterb = $query->num_rows;
 
 if($query->num_rows > 0){ 
-    $filename = "server_list.csv"; 
+    $filename = "$csvdir/server_list.csv"; 
      
     // Create a file pointer 
     $f = fopen($filename, 'a');
@@ -134,12 +136,6 @@ if($query->num_rows > 0){
 // Close the file
 fclose($f);
 } 
-
-
-rename("talkgroup_ids.csv", "./public_html/talkgroups/talkgroup_ids.csv");
-rename("Talkgroups_FreeDMR.csv", "./public_html/talkgroups/Talkgroups_FreeDMR.csv");
-rename("Talkgroups_Bridges.csv", "./public_html/talkgroups/Talkgroups_Bridges.csv");
-rename("server_list.csv", "./public_html/talkgroups/server_list.csv");
 
 echo "Total number of Talkgroups: $counter. </br>";
 echo "Total number of Servers: $counterb. </br>";
