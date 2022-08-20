@@ -34,7 +34,7 @@
 		<tr><th>Social Media (URL to Group or Page)</th><td><input id="socials" type="text" size="80" maxlength="80" value="<?php echo $row['socials']; ?>" name="socials"></td></tr>
 		<tr><th>MCC</th><td><input id="mcc" type="number" minlength="3" maxlength="6" value="<?php echo $row['mcc']; ?>" name="mcc" required></td></tr>
 		<tr><th>Function</th><td><input class="btn btn-success" type="submit" name="submit"> 
-		<?php if($_SESSION['isadmin'] == 2) { echo '<a href="delete.php?id='.$row['serverid'].'" class="btn btn-danger">Delete</a>'; } ?>
+		<?php if($_SESSION['isadmin'] == 2) { echo '<a href="delete-server.php?id='.$row['serverid'].'" class="btn btn-danger">Delete</a>'; } ?>
 		<a href="servers.php" class="btn btn-warning">Back</a></td></tr>
 		</tbody>
 		</table>
